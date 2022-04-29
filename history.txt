@@ -1,0 +1,11 @@
+# Tarefa 1
+
+## Realize a construção da imagem utilizando:
+docker build -t caddy-mini-ep6
+
+## Rode o servidor, na porta 8080, com o comando:
+docker run --rm -d --name tarefa1-mini-ep6 -p 8080:80 caddy-mini-ep6
+
+# Tarefa 2
+
+
