@@ -8,4 +8,4 @@ docker run --rm -d --name tarefa1-mini-ep6 -p 8080:80 caddy-mini-ep6
 
 # Tarefa 2
 
-
+docker run --rm -d --name tarefa2-mini-ep6 -p 8081:80 -v $(pwd)/Caddyfile:/etc/caddy/Caddyfile -v $(pwd)/html:/usr/src/pages caddy-mini-ep6
